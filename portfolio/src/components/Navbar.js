@@ -51,7 +51,7 @@ export default function Navbar({ onClick, mode }) {
                 navbar
                   ? "opacity-100 translate-x-0 visible duration-200"
                   : "opacity-0 -translate-x-1/2 invisible duration-200"
-              } cursor-pointer w-40  ease-linear`}
+              } cursor-pointer w-40 ease-linear`}
             >
               About Me
             </li>
