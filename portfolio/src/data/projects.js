@@ -5,6 +5,13 @@ import projectFour from "../images/project-4.png";
 import projectFive from "../images/project-5.png";
 import projectSix from "../images/project-6.png";
 
-export default function Projects() {
-  return <div></div>;
-}
+const projects = [
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+  projectFive,
+  projectSix,
+];
+
+export default projects;

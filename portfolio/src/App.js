@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Grid from "./components/Grid";
+import projects from "./data/projects";
+import machineLearning from "./data/machineLearning";
 
 export default function App() {
   return (
@@ -14,14 +16,25 @@ export default function App() {
             <br /> <span className="text-4xl font-bold">I'm Mikyle Kruger</span>
           </p>
           <p className="mt-8">
-            I create websites using JavaScript, ReactJs, Tailwind. I'm also
-            proffecient in Wordpress, Python, Django and Machine Learning
-            technologies
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
       </div>
-      <div>
-        <Projects />
+      <div className="projects-container"></div>
+      <div className="about-me-container p-16">
+        <div>
+          <p className="text-3xl font-semibold">About Me</p>
+        </div>
+        <p className="mt-8">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
     </div>
   );
