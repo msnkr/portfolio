@@ -15,18 +15,21 @@ export default function App() {
             <span className="text-3xl">Hi.</span>
             <br /> <span className="text-4xl font-bold">I'm Mikyle Kruger</span>
           </p>
-          <p className="mt-8">
+          <p className="my-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+          <div>
+            <Grid arr={projects} />
+          </div>
         </div>
       </div>
       <div className="projects-container"></div>
-      <div className="about-me-container p-16">
+      <div className="about-me-container px-16">
         <div>
           <p className="text-3xl font-semibold">About Me</p>
         </div>
-        <p className="mt-8">
+        <p className="my-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -35,6 +38,9 @@ export default function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <div>
+          <Grid arr={machineLearning} />
+        </div>
       </div>
     </div>
   );
