@@ -4,11 +4,21 @@ import Footer from "./components/Footer";
 import projects from "./data/projects";
 import machineLearning from "./data/machineLearning";
 
+import { useState } from "react";
 export default function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  function updateDarkMode() {
+    setDarkMode((prev) => !prev);
+  }
   return (
-    <div>
+    <div
+      className={`${
+        darkMode ? "bg-black text-white" : "bg-white"
+      } duration-300`}
+    >
       <div className="navbar-section">
-        <Navbar isDark={false} />
+        <Navbar mode={darkMode} onClick={updateDarkMode} />
       </div>
       <div className="main-container p-16 xl:px-80">
         <div>

@@ -3,13 +3,8 @@ import light from "../images/lightmode.svg";
 import dark from "../images/nightmode.svg";
 import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({ onClick, mode }) {
   const [navbar, setNavbar] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
-
-  function changeMode() {
-    setDarkMode((prev) => !prev);
-  }
 
   function handleClick() {
     setNavbar((prev) => !prev);
@@ -24,9 +19,9 @@ export default function Navbar() {
       <div className="burger-section flex space-x-8 items-center">
         <div className="mode-section">
           <img
-            onClick={changeMode}
-            src={darkMode ? dark : light}
-            className="w-[30px] cursor-pointer"
+            onClick={onClick}
+            src={mode ? light : dark}
+            className="w-[30px] cursor-pointer text-white"
             alt="mode"
           />
         </div>
