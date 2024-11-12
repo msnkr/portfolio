@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Grid from "./components/Grid";
+import Footer from "./components/Footer";
 import projects from "./data/projects";
 import machineLearning from "./data/machineLearning";
 
@@ -7,7 +8,7 @@ export default function App() {
   return (
     <div>
       <div className="navbar-section">
-        <Navbar />
+        <Navbar isDark={false} />
       </div>
       <div className="main-container p-16 xl:px-80">
         <div>
@@ -38,9 +39,12 @@ export default function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div>
+        <div className="my-16">
           <Grid arr={machineLearning} />
         </div>
+      </div>
+      <div className="footer">
+        <Footer />
       </div>
     </div>
   );
