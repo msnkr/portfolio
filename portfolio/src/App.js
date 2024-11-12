@@ -20,7 +20,9 @@ export default function App() {
           </p>
         </div>
       </div>
-      <div></div>
+      <div>
+        <Projects />
+      </div>
     </div>
   );
 }
