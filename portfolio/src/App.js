@@ -9,13 +9,13 @@ export default function App() {
       <div className="navbar-section">
         <Navbar />
       </div>
-      <div className="main-container p-16">
+      <div className="main-container p-16 xl:px-80">
         <div>
           <p>
             <span className="text-3xl">Hi.</span>
             <br /> <span className="text-4xl font-bold">I'm Mikyle Kruger</span>
           </p>
-          <p className="my-16">
+          <p className="my-16 xl:my-20">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -25,11 +25,11 @@ export default function App() {
         </div>
       </div>
       <div className="projects-container"></div>
-      <div className="about-me-container px-16">
+      <div className="about-me-container px-16 xl:px-80">
         <div>
           <p className="text-3xl font-semibold">About Me</p>
         </div>
-        <p className="my-8">
+        <p className="my-16 xl:my-20">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
