@@ -1,10 +1,8 @@
 export default function Footer() {
   return (
-    <div className="p-16">
+    <div className="">
       <div>
-        <p className="text-3xl font-semibold md:text-4xl my-16">
-          This is a footer
-        </p>
+        <p className="text-3xl font-semibold md:text-4xl">This is a footer</p>
       </div>
       <div>
         <p className="md:text-lg">

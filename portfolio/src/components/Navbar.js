@@ -1,6 +1,5 @@
 import burger from "../images/burger.svg";
-import light from "../images/lightmode.svg";
-import dark from "../images/nightmode.svg";
+
 import { useState } from "react";
 
 export default function Navbar({ onClick, mode }) {
@@ -11,20 +10,12 @@ export default function Navbar({ onClick, mode }) {
   }
 
   return (
-    <div className="p-16 flex justify-between items-center">
+    <div className="flex justify-between items-center">
       <div>
         <p>msn</p>
       </div>
 
       <div className="burger-section flex space-x-8 items-center">
-        <div className="mode-section">
-          <img
-            onClick={onClick}
-            src={mode ? light : dark}
-            className="w-[30px] cursor-pointer text-white"
-            alt="mode"
-          />
-        </div>
         <div>
           <img
             src={burger}

@@ -6,30 +6,21 @@ import machineLearning from "./data/machineLearning";
 
 import { useState } from "react";
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  function updateDarkMode() {
-    setDarkMode((prev) => !prev);
-  }
   return (
-    <div
-      className={`${
-        darkMode ? "bg-black text-white" : "bg-white"
-      } duration-300`}
-    >
+    <div>
       <div className="navbar-section">
-        <Navbar mode={darkMode} onClick={updateDarkMode} />
+        <Navbar />
       </div>
-      <div className="main-container p-16 xl:px-80">
+      <div className="main-container">
         <div>
           <p>
-            <span className="text-3xl md:text-4xl">Hi.</span>
+            <span className="text-3xl">Hi.</span>
             <br />{" "}
             <span className="text-4xl font-bold md:text-5xl">
               I'm Mikyle Kruger
             </span>
           </p>
-          <p className="my-16 xl:my-20 md:w-2/3 md:text-lg">
+          <p className="md:w-2/3 md:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -38,11 +29,11 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="about-me-container px-16 xl:px-80">
+      <div className="about-me-container">
         <div>
           <p className="text-3xl font-semibold md:text-4xl">About Me</p>
         </div>
-        <p className="my-16 xl:my-20 md:text-lg">
+        <p className="md:text-lg">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -51,7 +42,7 @@ export default function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div className="my-16">
+        <div className="">
           <Grid arr={machineLearning} />
         </div>
       </div>
