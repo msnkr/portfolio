@@ -6,7 +6,7 @@ import machineLearning from "./data/machineLearning";
 import Skills from "./components/Skills";
 
 import { useInView } from "react-intersection-observer";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 const skillArr = [
   "HTML",
   "CSS",
