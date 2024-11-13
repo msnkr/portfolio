@@ -30,6 +30,8 @@ const skillArr = [
   "Illustrator",
 ];
 export default function App() {
+  const [enlarge, setEnlarge] = useState(false);
+
   const { ref: mainRef, inView: mainInView } = useInView({
     threshold: 0.4,
   });
