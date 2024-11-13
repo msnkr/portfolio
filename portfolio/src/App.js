@@ -34,12 +34,9 @@ export default function App() {
         <div>
           <p>
             <span className="text-3xl tracking-wider">Hi.</span>
-            <br />{" "}
-            <span className="text-4xl font-bold md:text-5xl">
-              I'm Mikyle Kruger
-            </span>
+            <br /> <span className="text-4xl font-bold">I'm Mikyle Kruger</span>
           </p>
-          <p className="md:w-2/3 md:text-lg mt-8">
+          <p className="mt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -60,9 +57,9 @@ export default function App() {
       </div>
       <div className="about-me-container">
         <div>
-          <p className="text-3xl font-semibold md:text-4xl">About Me</p>
+          <p className="text-3xl font-semibold">About Me</p>
         </div>
-        <p className="md:text-lg mt-8">
+        <p className="mt-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
