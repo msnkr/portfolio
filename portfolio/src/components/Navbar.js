@@ -26,7 +26,7 @@ export default function Navbar() {
           />
         </div>
         <div className="hidden md:block">
-          <ul className="flex space-x-4 md:text-xl lg:text-2xl">
+          <ul className="flex space-x-4 md:text-xl lg:text-xl">
             <Link to="projects" smooth={true} duration={800}>
               <li className="cursor-pointer font-semibold z-50">Projects</li>
             </Link>
