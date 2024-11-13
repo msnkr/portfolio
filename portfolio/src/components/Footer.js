@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div>
       <div className="footer">
-        <ul className="flex space-x-8 justify-center text-xl font-semibold">
+        <ul className="flex space-x-8 justify-center">
           <Link to="projects" smooth={true} duration={800}>
             <li className="cursor-pointer">Projects</li>
           </Link>
@@ -12,7 +12,7 @@ export default function Footer() {
             <li className="cursor-pointer">Skills</li>
           </Link>
           <Link to="about-me" smooth={true} duration={800}>
-            <li className="cursor-pointer font-semibold">About Me</li>
+            <li className="cursor-pointer">About Me</li>
           </Link>
         </ul>
       </div>

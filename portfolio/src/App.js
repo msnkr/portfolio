@@ -16,8 +16,12 @@ const skillArr = [
   "Bootstrap",
   "Python",
   "Django",
-  "Data Science",
-  "Machine Learning",
+  "Pandas",
+  "Scikit-Learn",
+  "Catboost",
+  "XGBoost",
+  "Neural Networks",
+  "Random Forest",
   "Wordpress",
   "Elementor",
   "Wix",
@@ -76,7 +80,9 @@ export default function App() {
           <div className="mt-8">
             <ul className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4">
               {skillArr.map((skill, index) => (
-                <Skills skill={skill} />
+                <div key={index}>
+                  <Skills skill={skill} />
+                </div>
               ))}
             </ul>
           </div>
