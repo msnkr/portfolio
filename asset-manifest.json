@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5403b805.css",
-    "main.js": "/portfolio/static/js/main.9668dbfc.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/project-1.png": "/portfolio/static/media/project-1.1b178b55079b97038d2c.png",
-    "static/media/project-5.png": "/portfolio/static/media/project-5.766ff41de8b619058eeb.png",
-    "static/media/project-4.png": "/portfolio/static/media/project-4.e1e8761c2ce3186793a6.png",
-    "static/media/machine-learning-3.png": "/portfolio/static/media/machine-learning-3.55a3c760d4bb7cef7cf9.png",
-    "static/media/project-2.png": "/portfolio/static/media/project-2.df20399ee87f84e489d7.png",
-    "static/media/project-6.png": "/portfolio/static/media/project-6.41039eb014589a2660ab.png",
-    "static/media/machine-learning-2.png": "/portfolio/static/media/machine-learning-2.a15b5a3ae39d70181b1f.png",
-    "static/media/project-3.png": "/portfolio/static/media/project-3.9807556edbb3cd542fc4.png",
-    "static/media/machine-learning-5.png": "/portfolio/static/media/machine-learning-5.d3ae3d2a0675d4bb5ee1.png",
-    "static/media/machine-learning-6.png": "/portfolio/static/media/machine-learning-6.e09a843b1c15fe9f6ea5.png",
-    "static/media/machine-learning-1.png": "/portfolio/static/media/machine-learning-1.015655e631acc6da077f.png",
-    "static/media/machine-learning-4.png": "/portfolio/static/media/machine-learning-4.cb387010cfba34c3d9fa.png",
-    "index.html": "/portfolio/index.html",
-    "static/media/burger.svg": "/portfolio/static/media/burger.5083b089ffcfb28332bb1e2eb4997de3.svg",
-    "main.5403b805.css.map": "/portfolio/static/css/main.5403b805.css.map",
-    "main.9668dbfc.js.map": "/portfolio/static/js/main.9668dbfc.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/portfolio/static/css/main.5403b805.css",
+    "main.js": "/portfolio/portfolio/static/js/main.9ecf50a3.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/project-1.png": "/portfolio/portfolio/static/media/project-1.1b178b55079b97038d2c.png",
+    "static/media/project-5.png": "/portfolio/portfolio/static/media/project-5.766ff41de8b619058eeb.png",
+    "static/media/project-4.png": "/portfolio/portfolio/static/media/project-4.e1e8761c2ce3186793a6.png",
+    "static/media/machine-learning-3.png": "/portfolio/portfolio/static/media/machine-learning-3.55a3c760d4bb7cef7cf9.png",
+    "static/media/project-2.png": "/portfolio/portfolio/static/media/project-2.df20399ee87f84e489d7.png",
+    "static/media/project-6.png": "/portfolio/portfolio/static/media/project-6.41039eb014589a2660ab.png",
+    "static/media/machine-learning-2.png": "/portfolio/portfolio/static/media/machine-learning-2.a15b5a3ae39d70181b1f.png",
+    "static/media/project-3.png": "/portfolio/portfolio/static/media/project-3.9807556edbb3cd542fc4.png",
+    "static/media/machine-learning-5.png": "/portfolio/portfolio/static/media/machine-learning-5.d3ae3d2a0675d4bb5ee1.png",
+    "static/media/machine-learning-6.png": "/portfolio/portfolio/static/media/machine-learning-6.e09a843b1c15fe9f6ea5.png",
+    "static/media/machine-learning-1.png": "/portfolio/portfolio/static/media/machine-learning-1.015655e631acc6da077f.png",
+    "static/media/machine-learning-4.png": "/portfolio/portfolio/static/media/machine-learning-4.cb387010cfba34c3d9fa.png",
+    "index.html": "/portfolio/portfolio/index.html",
+    "static/media/burger.svg": "/portfolio/portfolio/static/media/burger.5083b089ffcfb28332bb1e2eb4997de3.svg",
+    "main.5403b805.css.map": "/portfolio/portfolio/static/css/main.5403b805.css.map",
+    "main.9ecf50a3.js.map": "/portfolio/portfolio/static/js/main.9ecf50a3.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5403b805.css",
-    "static/js/main.9668dbfc.js"
+    "static/js/main.9ecf50a3.js"
   ]
 }
