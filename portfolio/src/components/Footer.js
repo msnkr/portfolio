@@ -2,7 +2,9 @@ export default function Footer() {
   return (
     <div className="">
       <div>
-        <p className="text-3xl font-semibold">This is a footer</p>
+        <p className="text-3xl font-semibold lg:text-4xl tracking-wide">
+          This is a footer
+        </p>
       </div>
       <div>
         <p className="mt-8">

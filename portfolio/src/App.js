@@ -26,17 +26,20 @@ const skillArr = [
 ];
 export default function App() {
   return (
-    <div className="px-16 py-8 font-custom">
+    <div className="px-16 py-8 font-custom md:px-32 lg:px-52 xl:px-80">
       <div className="navbar-section py-16">
         <Navbar />
       </div>
-      <div className="main-container mt-20">
+      <div className="main-container mt-20 tracking-tighter">
         <div>
           <p>
-            <span className="text-3xl tracking-wider">Hi.</span>
-            <br /> <span className="text-4xl font-bold">I'm Mikyle Kruger</span>
+            <span className="text-3xl tracking-wider lg:text-4xl">Hi.</span>
+            <br />{" "}
+            <span className="text-4xl font-bold lg:text-5xl tracking-wide">
+              I'm Mikyle Kruger
+            </span>
           </p>
-          <p className="mt-8">
+          <p className="mt-8 lg:w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -46,9 +49,11 @@ export default function App() {
         </div>
       </div>
       <div className="skills-container py-16">
-        <p className="text-3xl font-semibold">Skills</p>
+        <p className="text-3xl font-semibold lg:text-4xl tracking-wide">
+          Skills
+        </p>
         <div className="mt-8">
-          <ul className="grid grid-cols-2 gap-2">
+          <ul className="grid grid-cols-2 gap-2 lg:grid-cols-3">
             {skillArr.map((skill, index) => (
               <Skills skill={skill} />
             ))}
@@ -57,7 +62,9 @@ export default function App() {
       </div>
       <div className="about-me-container">
         <div>
-          <p className="text-3xl font-semibold">About Me</p>
+          <p className="text-3xl font-semibold lg:text-4xl tracking-wide">
+            About Me
+          </p>
         </div>
         <p className="mt-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

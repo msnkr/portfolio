@@ -12,17 +12,24 @@ export default function Navbar({ onClick, mode }) {
   return (
     <div className="flex justify-between items-center">
       <div>
-        <p>msn</p>
+        <p className="font-bold text-5xl">msnkr</p>
       </div>
 
       <div className="burger-section flex space-x-8 items-center">
         <div>
           <img
             src={burger}
-            className="w-[40px] cursor-pointer"
+            className="w-[40px] cursor-pointer md:invisible"
             alt="burger-icon"
             onClick={handleClick}
           />
+        </div>
+        <div className="hidden md:block">
+          <ul className="flex space-x-4">
+            <li className="cursor-pointer font-semibold">Projects</li>
+            <li className="cursor-pointer font-semibold">Skills</li>
+            <li className="cursor-pointer font-semibold">About Me</li>
+          </ul>
         </div>
         <div className="relative">
           <ul
