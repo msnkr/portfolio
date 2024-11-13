@@ -2,7 +2,7 @@ import burger from "../images/burger.svg";
 
 import { useState } from "react";
 
-export default function Navbar({ onClick, mode }) {
+export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
 
   function handleClick() {

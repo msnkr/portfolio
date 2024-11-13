@@ -35,7 +35,7 @@ export default function App() {
   });
 
   return (
-    <div className="px-16 py-8 font-custom md:px-32 lg:px-52 xl:px-80">
+    <div className="px-16 py-8 font-custom md:px-32 lg:px-52 xl:px-80 select-none">
       <div className="navbar-section py-16">
         <Navbar />
       </div>
@@ -56,7 +56,7 @@ export default function App() {
                 I'm Mikyle Kruger
               </span>
             </p>
-            <p className="mt-8 lg:w-1/2">
+            <p className="mt-8 md:w-1/2">
               A digital printer and graphic designer with a love for programming
               and web-development
             </p>

@@ -1,18 +1,17 @@
+import Navbar from "./Navbar";
+
 export default function Footer() {
   return (
-    <div className="">
-      <div>
-        <p className="text-3xl font-semibold lg:text-4xl tracking-wide">
-          This is a footer
-        </p>
+    <div>
+      <div className="footer">
+        <ul className="flex space-x-8 justify-center text-xl font-semibold">
+          <li className="cursor-pointer">Projects</li>
+          <li className="cursor-pointer">Skills</li>
+          <li className="cursor-pointer">About Me</li>
+        </ul>
       </div>
-      <div>
-        <p className="mt-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
+      <div className="text-center my-16">
+        <p className="text-5xl font-bold tracking-wide cursor-pointer">msnkr</p>
       </div>
     </div>
   );
