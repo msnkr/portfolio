@@ -26,7 +26,7 @@ const skillArr = [
 ];
 export default function App() {
   return (
-    <div className="px-16 py-8">
+    <div className="px-16 py-8 font-custom">
       <div className="navbar-section py-16">
         <Navbar />
       </div>
