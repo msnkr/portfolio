@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5403b805.css",
-    "main.js": "/portfolio/static/js/main.9668dbfc.js",
+    "main.css": "/portfolio/static/css/main.45e79c8b.css",
+    "main.js": "/portfolio/static/js/main.30947a7a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/project-1.png": "/portfolio/static/media/project-1.1b178b55079b97038d2c.png",
     "static/media/project-5.png": "/portfolio/static/media/project-5.766ff41de8b619058eeb.png",
@@ -17,12 +17,12 @@
     "static/media/machine-learning-4.png": "/portfolio/static/media/machine-learning-4.cb387010cfba34c3d9fa.png",
     "index.html": "/portfolio/index.html",
     "static/media/burger.svg": "/portfolio/static/media/burger.5083b089ffcfb28332bb1e2eb4997de3.svg",
-    "main.5403b805.css.map": "/portfolio/static/css/main.5403b805.css.map",
-    "main.9668dbfc.js.map": "/portfolio/static/js/main.9668dbfc.js.map",
+    "main.45e79c8b.css.map": "/portfolio/static/css/main.45e79c8b.css.map",
+    "main.30947a7a.js.map": "/portfolio/static/js/main.30947a7a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5403b805.css",
-    "static/js/main.9668dbfc.js"
+    "static/css/main.45e79c8b.css",
+    "static/js/main.30947a7a.js"
   ]
 }
