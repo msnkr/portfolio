@@ -51,7 +51,7 @@ export default function App() {
       <div className="skills-container py-16">
         <p className="text-3xl font-semibold">Skills</p>
         <div className="mt-8">
-          <ul className="grid grid-cols-2 space-y-2">
+          <ul className="grid grid-cols-2 gap-2">
             {skillArr.map((skill, index) => (
               <Skills skill={skill} />
             ))}
