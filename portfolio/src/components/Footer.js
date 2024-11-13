@@ -5,7 +5,7 @@ export default function Footer() {
         <p className="text-3xl font-semibold md:text-4xl">This is a footer</p>
       </div>
       <div>
-        <p className="md:text-lg">
+        <p className="md:text-lg mt-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

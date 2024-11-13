@@ -40,20 +40,20 @@ export default function Navbar({ onClick, mode }) {
             <li
               className={` ${
                 navbar
-                  ? "opacity-100 translate-x-0 visible duration-200"
+                  ? "opacity-100 translate-x-0 visible  duration-200"
                   : "opacity-0 -translate-x-1/2 invisible duration-200"
-              } cursor-pointer w-40 ease-linear`}
+              } cursor-pointer ease-linear`}
             >
-              About Me
+              Skills
             </li>
             <li
               className={` ${
                 navbar
-                  ? "opacity-100 translate-x-0 visible  duration-300"
+                  ? "opacity-100 translate-x-0 visible duration-300"
                   : "opacity-0 -translate-x-1/2 invisible duration-100"
-              } cursor-pointer ease-linear`}
+              } cursor-pointer w-40 ease-linear`}
             >
-              Contact
+              About Me
             </li>
           </ul>
         </div>

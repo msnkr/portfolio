@@ -3,37 +3,66 @@ import Grid from "./components/Grid";
 import Footer from "./components/Footer";
 import projects from "./data/projects";
 import machineLearning from "./data/machineLearning";
+import Skills from "./components/Skills";
 
 import { useState } from "react";
+const skillArr = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "ReactJs",
+  "Tailwind",
+  "Bootstrap",
+  "Python",
+  "Django",
+  "Data Science",
+  "Machine Learning",
+  "Wordpress",
+  "Elementor",
+  "Wix",
+  "Photoshop",
+  "CorelDraw",
+  "Illustrator",
+];
 export default function App() {
   return (
-    <div>
-      <div className="navbar-section">
+    <div className="px-16 py-8">
+      <div className="navbar-section py-16">
         <Navbar />
       </div>
-      <div className="main-container">
+      <div className="main-container mt-20">
         <div>
           <p>
-            <span className="text-3xl">Hi.</span>
+            <span className="text-3xl tracking-wider">Hi.</span>
             <br />{" "}
             <span className="text-4xl font-bold md:text-5xl">
               I'm Mikyle Kruger
             </span>
           </p>
-          <p className="md:w-2/3 md:text-lg">
+          <p className="md:w-2/3 md:text-lg mt-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <div>
+          <div className="py-16">
             <Grid arr={projects} />
           </div>
+        </div>
+      </div>
+      <div className="skills-container py-16">
+        <p className="text-3xl font-semibold">Skills</p>
+        <div className="mt-8">
+          <ul className="grid grid-cols-2 space-y-2">
+            {skillArr.map((skill, index) => (
+              <Skills skill={skill} />
+            ))}
+          </ul>
         </div>
       </div>
       <div className="about-me-container">
         <div>
           <p className="text-3xl font-semibold md:text-4xl">About Me</p>
         </div>
-        <p className="md:text-lg">
+        <p className="md:text-lg mt-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -42,7 +71,7 @@ export default function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div className="">
+        <div className="py-16">
           <Grid arr={machineLearning} />
         </div>
       </div>
