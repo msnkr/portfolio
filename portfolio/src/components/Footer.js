@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
       <div className="mx-auto">
         <a href="https://github.com/msnkr" target="_black" rel="noreferrer">
-          <img src={logo} className="w-[50px]" />
+          <img src={logo} className="w-[50px]" alt="github-logo" />
         </a>
       </div>
       <div>
@@ -19,6 +19,7 @@ export default function Footer() {
             <img
               src={arrowIcon}
               className="w-12 animate-bounce cursor-pointer"
+              alt="up-arrow-icon"
             />
           </Link>
         </div>
