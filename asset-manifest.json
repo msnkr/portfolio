@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.45e79c8b.css",
-    "main.js": "/portfolio/static/js/main.6a6635bc.js",
+    "main.css": "/portfolio/static/css/main.cf6c4df9.css",
+    "main.js": "/portfolio/static/js/main.31b52d57.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/project-1.png": "/portfolio/static/media/project-1.2057d59f37692e3e0c99.png",
     "static/media/project-5.png": "/portfolio/static/media/project-5.2177b4ad331bb027835f.png",
@@ -15,14 +15,16 @@
     "static/media/machine-learning-6.png": "/portfolio/static/media/machine-learning-6.7b71ac33a5ed7b2abb7f.png",
     "static/media/machine-learning-1.png": "/portfolio/static/media/machine-learning-1.79966ded4b09680443ce.png",
     "static/media/machine-learning-4.png": "/portfolio/static/media/machine-learning-4.30d04ad597849d2a3c7d.png",
+    "static/media/github-mark.svg": "/portfolio/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/portfolio/index.html",
     "static/media/burger.svg": "/portfolio/static/media/burger.5083b089ffcfb28332bb1e2eb4997de3.svg",
-    "main.45e79c8b.css.map": "/portfolio/static/css/main.45e79c8b.css.map",
-    "main.6a6635bc.js.map": "/portfolio/static/js/main.6a6635bc.js.map",
+    "static/media/arrow-up.svg": "/portfolio/static/media/arrow-up.238b406d76800a09eb05f1ff7cb1dab0.svg",
+    "main.cf6c4df9.css.map": "/portfolio/static/css/main.cf6c4df9.css.map",
+    "main.31b52d57.js.map": "/portfolio/static/js/main.31b52d57.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45e79c8b.css",
-    "static/js/main.6a6635bc.js"
+    "static/css/main.cf6c4df9.css",
+    "static/js/main.31b52d57.js"
   ]
 }
