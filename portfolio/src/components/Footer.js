@@ -4,17 +4,17 @@ import logo from "../images/github-mark.svg";
 
 export default function Footer() {
   return (
-    <div className="flex justify-evenly items-center">
-      <div className="text-center my-16">
-        <p className="text-5xl font-bold tracking-wide">msnkr</p>
+    <div className="md:grid grid-cols-3 gap-2 items-center flex">
+      <div className="my-16">
+        <p className="md:text-5xl font-bold tracking-wide text-3xl">msnkr</p>
       </div>
-      <div>
+      <div className="mx-auto">
         <a href="https://github.com/msnkr" target="_black" rel="noreferrer">
           <img src={logo} className="w-[50px]" />
         </a>
       </div>
       <div>
-        <div className="relative">
+        <div className="relative xl:flex justify-end">
           <Link to="navbar" smooth={true} duration={800}>
             <img
               src={arrowIcon}
