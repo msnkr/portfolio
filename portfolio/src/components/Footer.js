@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import arrowIcon from "../images/arrow-up.svg";
-import logo from "../images/GitHub_Logo.png";
+import logo from "../images/github-mark.svg";
 
 export default function Footer() {
   return (
@@ -9,7 +9,9 @@ export default function Footer() {
         <p className="text-5xl font-bold tracking-wide">msnkr</p>
       </div>
       <div>
-        <img src={logo} className="w-40" />
+        <a href="https://github.com/msnkr" target="_black" rel="noreferrer">
+          <img src={logo} className="w-[50px]" />
+        </a>
       </div>
       <div>
         <div className="relative">
