@@ -39,7 +39,7 @@ export default function App() {
   });
 
   return (
-    <div className="px-16 py-8 font-custom md:px-32 lg:px-52 xl:px-80 select-none">
+    <div className="px-16 py-8 font-custom md:px-32 lg:px-52 xl:px-96 select-none">
       <Element name="navbar">
         <div className="navbar-section py-16">
           <Navbar />
