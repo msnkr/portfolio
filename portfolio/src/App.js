@@ -106,13 +106,21 @@ export default function App() {
               </p>
             </div>
             <p className="mt-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Hello! I'm a tech enthusiast from the bustling city of
+              Johannesburg, South Africa. With a high school certificate and a
+              passion for technology, I've spent my career as a graphic designer
+              and printer. But my true calling lies in the world of front-end
+              development. <br /> <br />
+              I'm fascinated by the latest tech trends, and you'll often find me
+              gaming, hitting the gym, or experimenting with my Raspberry Pi. I
+              love diving into machine learning with scikit-learn and competing
+              in Kaggle competitions. At home, I enjoy spending time with my
+              wonderful wife and our adorable cat, watching movies, and
+              exploring the endless possibilities of Python and JavaScript. My
+              guiding principle is simple: work hard now so I can enjoy life
+              later. <br /> <br /> With a keen interest in web development, I'm
+              on a mission to transition from graphic design and printing to
+              becoming a skilled web developer.
             </p>
           </div>
         </Element>
