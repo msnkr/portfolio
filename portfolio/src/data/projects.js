@@ -7,22 +7,22 @@ import projectSix from "../images/project-6.png";
 
 const projectOneDict = {
   image: projectOne,
-  link: "https://msnkr.github.io/projectOne",
+  link: "https://msnkr.github.io/projectTwo",
 };
 
 const projectTwoDict = {
   image: projectTwo,
-  link: "https://msnkr.github.io/projectTwo",
+  link: "https://msnkr.github.io/projectThree",
 };
 
 const projectThreeDict = {
   image: projectThree,
-  link: "https://msnkr.github.io/projectThree",
+  link: "#",
 };
 
 const projectFourDict = {
   image: projectFour,
-  link: "https://msnkr.github.io/projectThree",
+  link: "https://msnkr.github.io/projectOne",
 };
 
 const projectFiveDict = {
