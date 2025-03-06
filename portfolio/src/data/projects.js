@@ -5,13 +5,43 @@ import projectFour from "../images/project-4.png";
 import projectFive from "../images/project-5.png";
 import projectSix from "../images/project-6.png";
 
+const projectOneDict = {
+  image: projectOne,
+  link: "https://msnkr.github.io/projectOne",
+};
+
+const projectTwoDict = {
+  image: projectTwo,
+  link: "https://msnkr.github.io/projectTwo",
+};
+
+const projectThreeDict = {
+  image: projectThree,
+  link: "https://msnkr.github.io/projectThree",
+};
+
+const projectFourDict = {
+  image: projectFour,
+  link: "https://msnkr.github.io/projectThree",
+};
+
+const projectFiveDict = {
+  image: projectFive,
+  link: "#",
+};
+
+const projectSixDict = {
+  image: projectSix,
+  link: "#",
+};
+
 const projects = [
-  projectOne,
-  projectTwo,
-  projectThree,
-  projectFour,
-  projectFive,
-  projectSix,
+  projectOneDict,
+  projectTwoDict,
+  projectThreeDict,
+  projectFourDict,
+  projectFiveDict,
+  projectSixDict,
 ];
 
 export default projects;
