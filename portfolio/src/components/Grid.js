@@ -7,7 +7,7 @@ export default function Grid({ arr }) {
             <img
               className="scale-95 hover:scale-100 duration-100 rounded-lg"
               src={dict.image}
-              alt={dict.link}
+              alt={""}
             />
           </a>
         </div>
