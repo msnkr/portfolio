@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cf6c4df9.css",
-    "main.js": "/portfolio/static/js/main.31b52d57.js",
+    "main.js": "/portfolio/static/js/main.23444102.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/project-3.png": "/portfolio/static/media/project-3.f72ac8bdf2522475fbb4.png",
     "static/media/project-1.png": "/portfolio/static/media/project-1.2057d59f37692e3e0c99.png",
     "static/media/project-5.png": "/portfolio/static/media/project-5.2177b4ad331bb027835f.png",
     "static/media/project-4.png": "/portfolio/static/media/project-4.9bd099be44cc2030df6f.png",
@@ -10,7 +11,6 @@
     "static/media/project-2.png": "/portfolio/static/media/project-2.27232d88f4d33cd48d90.png",
     "static/media/project-6.png": "/portfolio/static/media/project-6.138a366a1f49779f1985.png",
     "static/media/machine-learning-2.png": "/portfolio/static/media/machine-learning-2.cfc59b3f8601708a2ba3.png",
-    "static/media/project-3.png": "/portfolio/static/media/project-3.c9a714d88f2949a3db9c.png",
     "static/media/machine-learning-5.png": "/portfolio/static/media/machine-learning-5.eae5bd615a45630e4ed8.png",
     "static/media/machine-learning-6.png": "/portfolio/static/media/machine-learning-6.7b71ac33a5ed7b2abb7f.png",
     "static/media/machine-learning-1.png": "/portfolio/static/media/machine-learning-1.79966ded4b09680443ce.png",
@@ -20,11 +20,11 @@
     "static/media/burger.svg": "/portfolio/static/media/burger.5083b089ffcfb28332bb1e2eb4997de3.svg",
     "static/media/arrow-up.svg": "/portfolio/static/media/arrow-up.238b406d76800a09eb05f1ff7cb1dab0.svg",
     "main.cf6c4df9.css.map": "/portfolio/static/css/main.cf6c4df9.css.map",
-    "main.31b52d57.js.map": "/portfolio/static/js/main.31b52d57.js.map",
+    "main.23444102.js.map": "/portfolio/static/js/main.23444102.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf6c4df9.css",
-    "static/js/main.31b52d57.js"
+    "static/js/main.23444102.js"
   ]
 }
