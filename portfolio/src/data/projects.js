@@ -17,7 +17,7 @@ const projectTwoDict = {
 
 const projectThreeDict = {
   image: projectThree,
-  link: "#",
+  link: "https://msnkr.github.io/sap-portfolio",
 };
 
 const projectFourDict = {
