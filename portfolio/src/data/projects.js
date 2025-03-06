@@ -27,12 +27,12 @@ const projectFourDict = {
 
 const projectFiveDict = {
   image: projectFive,
-  link: "#",
+  link: "https://msnkr.github.io/projectFour",
 };
 
 const projectSixDict = {
   image: projectSix,
-  link: "#",
+  link: "https://msnkr.github.io/projectFive",
 };
 
 const projects = [
